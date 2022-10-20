@@ -22,7 +22,7 @@ calcola.addEventListener("click", function() {
     }else if (ageRange.value === "Senior"){
       outputPrice = (totalPrice * (1 - discountSenior)).toFixed(2)
     }else {
-      outputPrice = totalPrice;
+      outputPrice = totalPrice.toFixed(2);
     }
 
 /* rendering */
@@ -30,4 +30,9 @@ calcola.addEventListener("click", function() {
   document.getElementById("ticketPrice").innerHTML = `${outputPrice} &euro;`;
   document.getElementById("ticketType").append(ageRange.value); 
   });
+
+  /* evento annulla con pop up */
+  annulla.addEventListener("click", function(){
+    alert("Grazie per i CASHHHH!!")
+  })
   
