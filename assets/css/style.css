@@ -52,5 +52,51 @@
     padding: 10px 15px;
     color: #b91450;
   }
+
+  /* biglietto */
+  
+  .ticket, .details {
+    display: flex;
+  }
+  
+  .yourticket-container {
+    background-color: white;
+    color: black;
+    padding: 45px;
+  }
+  
+  .yourticket-container h3 {
+    text-align: left;
+  }
+  
+  .passenger-name {
+    background-color: #808080;
+    padding: 15px;
+  }
+  
+  .passenger-name h2:first-child {
+    color: black;
+  }
+  
+  .passenger-name p {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.7rem;
+  }
+  
+  .details {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .ticket .details h2 {
+    color: black;
+    margin-bottom: 35px;
+  } 
+  
+  .details div {
+    padding: 25px;
+  }
+
   
   
