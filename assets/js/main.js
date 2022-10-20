@@ -13,7 +13,6 @@ let outputPrice;
 let totalPrice = 0;
 
 /* calcoli */ 
-
 calcola.addEventListener("click", function() {
   
     totalPrice = km.value * ticketRate;
