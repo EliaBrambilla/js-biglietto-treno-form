@@ -25,6 +25,10 @@ calcola.addEventListener("click", function() {
     }else {
       outputPrice = totalPrice;
     }
-  
+
+/* rendering */
+  document.getElementById("passengerName").innerHTML = passengerFullName.value;
+  document.getElementById("ticketPrice").innerHTML = `${outputPrice} &euro;`;
+  document.getElementById("ticketType").append(ageRange.value); 
   });
   
